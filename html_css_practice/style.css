@@ -1,0 +1,22 @@
+p {
+    color: red;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    padding:5px;
+}
+h1 {
+    color: blue;
+}
+li{
+    color: greenyellow;
+    font-size: 2em;
+}
+ul{
+    color: greenyellow;
+    background-color: hotpink;  
+}
+ol {
+    color: greenyellow;
+    background-color: cyan;    
+}
