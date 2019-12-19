@@ -1,0 +1,20 @@
+#googlelogo {
+    padding-top: 109px;
+    line-height: 16px;
+    margin-top: 47px;
+}
+input[type=text] {
+    width: 50%;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url('https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.png');
+    background-size: 30px 60px;
+    background-position-y:5px;
+    background-position-x: 6px;
+    background-repeat: no-repeat;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left:50px;
+
+}
