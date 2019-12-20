@@ -3,7 +3,58 @@
     <head>Page title</head>
     <body>
         <script>
-            console.log("Hello, World!")
+            function RNDint(min, max){
+                return (Math.floor(Math.random() * (max-min)) + min);
+                
+            }
+
+            function computer_play(){
+                let i = RNDint(1, 4);
+                
+                if (i == 1){
+                    console.log(i);
+                    return "Rock";
+                }
+                else if (i == 2){
+                    console.log(i);
+                    return "Paper";
+                }
+                else{ 
+                    console.log(i);
+                    return "Scissors";
+                }
+                
+            }
+
+            function playRound(pc, cc){
+                if (pc.toLowerCase() == "rock" && cc.toLowerCase() == "paper"){
+                    console.log("You lost to Paper");
+                }
+                else if(pc.toLowerCase() == "paper" && cc.toLowerCase() == "scissors"){
+                    console.log("You lost to Scissors");
+                }
+                else if(pc.toLowerCase() == "scissors" && cc.toLowerCase() == "rock"){
+                    console.log("You lost to Rock");
+                }
+                else if(pc.toLowerCase() == cc.toLowerCase()){
+                    console.log ("Tie Try Again");
+                }
+                else{
+                    console.log("You won!!, The cpu chose " + cc);
+                }
+
+                return;
+            }
+
+            while(1){
+                //console.log(cpu);
+                let playerchoice = prompt("Rock, Paper, or Scissors?");
+                let cpu = computer_play();
+                playRound(playerchoice, cpu);
+
+
+            }
+
         </script>
 
     </body>
