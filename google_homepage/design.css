@@ -3,6 +3,7 @@
     line-height: 16px;
     margin-top: 47px;
 }
+
 input[type=text] {
     width: 50%;
     font-size: 20px;
@@ -25,20 +26,28 @@ ul{
     padding: 0;
     overflow: hidden;
 }
-li{
-    float: left;
-}
+
 li a{
     display: block;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
-    color: black;
 }
-.signinbtn {
+
+#signinbtn {
     background-color: rgb(52, 142, 199);
     color: white;
+    border-color: black;
     font-size: 14px;
-
     font-weight: bold;
+    float: right;
+}
+
+.jlink {
+    float: left;
+    color: black;
+}
+.rightaln {
+    float: right;
+    color: black;
 }
