@@ -10,7 +10,7 @@ function RNDint(min, max){
 
 function computer_play(){
     let i = RNDint(1, 4);
-    
+    //hey i added something
     if (i == 1){
         console.log(i);
         return "Rock";
