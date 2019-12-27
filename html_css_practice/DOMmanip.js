@@ -39,6 +39,6 @@ div2.appendChild(paragraph2);
 //Events
 
 //btn1.onclick = () => alert("hello World"); //this method does work, however it only allows for one event listener to be on at a time such as on click.
-btn1.addEventListener('click', function(e) {
+btn1.addEventListener('onmousedown', function(e) {
     e.target.style.background = 'blue';
 });
