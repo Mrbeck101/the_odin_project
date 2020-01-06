@@ -1,0 +1,28 @@
+.btn-grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    padding: 10px;
+}
+
+.btngriditem{
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+#container{
+    width: 337px;
+    height: 252px;
+    margin: 0 auto;
+}
+
+.results{
+    width: 317px;
+}
+input {
+    width: 317px;
+    align-self: center;
+    padding: 10px;
+    text-align: right;
+    font-size: large;
+}
