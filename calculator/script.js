@@ -90,10 +90,7 @@ btns.forEach((button) => {
                     temp2 = null;
                     oper = null;
                 }
-            }
-
-
-            
+            } 
         }
     })
 })
